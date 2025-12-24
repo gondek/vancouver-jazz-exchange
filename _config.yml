@@ -1,0 +1,22 @@
+title: Vancouver Jazz Exchange
+description: A meetup to discuss jazz and socialize
+url: ""
+baseurl: ""
+port: 4010
+eventbrite: https://www.eventbrite.ca/o/vancouver-jazz-exchange-120780491335
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - .idea/
+  - justfile
+  - README.md
+  - CNAME

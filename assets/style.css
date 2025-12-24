@@ -1,0 +1,72 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  font-family: Georgia, Utopia, Charter, serif;
+  font-size: 1.1em;
+  line-height: 1.25;
+  color: #111;
+  background-color: #eee;
+}
+
+a {
+  color: #1c4f98;
+}
+
+a:hover {
+  color: #16253c;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 2rem;
+}
+
+header {
+    text-align: center;
+}
+
+.nav-current {
+    color: #111;
+    text-decoration: none;
+}
+
+.nav-external {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==)
+    no-repeat right;
+    padding-right: 13px;
+}
+
+footer {
+    padding-top: 1em;
+    text-align: center;
+    font-style: italic;
+    font-size: .75em;
+    color: #888;
+}
+
+p {
+  padding-bottom: .7rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    padding: 0.3em 0;
+}
+
+ul, ol, nav {
+    padding-bottom: .7rem;
+}
+
+h1 {
+}
