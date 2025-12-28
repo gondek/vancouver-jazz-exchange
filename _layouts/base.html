@@ -10,21 +10,21 @@
 <div class="container">
     <div class="content">
         <header>
-            <img src="/assets/vanjazzexchangelogo.png" alt="{{ site.title }} Logo">
+            <img src="/assets/vanjazzexchangelogo.png" alt="{{ site.title }} Logo" class="logo">
             <h1>{{ site.title }}</h1>
             <nav>
                 <a {% if page.url == "/" %}class="nav-current"{% endif %} href="/">Home</a> |
                 <a {% if page.url contains "meetups" %}class="nav-current"{% endif %} href="/meetups">Meetups</a> |
                 <a {% if page.url contains "archives" %}class="nav-current"{% endif %} href="/archives">Archives</a> |
                 <a {% if page.url contains "resources" %}class="nav-current"{% endif %} href="/resources">Resources</a> |
-                <a class="nav-external" target="_blank" href="{{ site.eventbrite }}">Eventbrite</a>
+                <a class="nav-external" target="_blank" href="{{ site.meetupcom }}">Events</a>
             </nav>
         </header>
 
         {{ content }}
 
         <footer>
-            The {{ site.title }}'s website is maintained by <a href="https://alex.gondek.ca">Alex Gondek</a>.
+            Maintained by <a href="https://alex.gondek.ca">Alex Gondek</a>. If you have any questions, feedback, or suggestions, please contact Alex.
         </footer>
     </div>
 </div>

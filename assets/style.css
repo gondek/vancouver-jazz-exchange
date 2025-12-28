@@ -36,6 +36,15 @@ header {
     text-align: center;
 }
 
+.logo {
+    max-height: 10rem;
+}
+
+header h1 {
+    padding-top: 0.1em;
+    line-height: 1em;
+}
+
 .nav-current {
     color: #111;
     text-decoration: none;

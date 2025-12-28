@@ -1,15 +1,22 @@
 title: Vancouver Jazz Exchange
 description: A meetup to discuss jazz and socialize
+future: true
 url: ""
 baseurl: ""
 port: 4010
-eventbrite: https://www.eventbrite.ca/o/vancouver-jazz-exchange-120780491335
+meetupcom: https://www.meetup.com/vancouver-jazz-exchange/events/
+permalink: /archives/:year-:month-:day
 
 defaults:
   - scope:
       path: ""
     values:
       layout: "default"
+  - scope:
+      type: "posts"
+    values:
+      layout: "meetup"
+      category: "archive"
 
 exclude:
   - Gemfile

@@ -11,7 +11,7 @@ Sometimes meetups are followed by a live jazz concert nearby. _Note: Check the e
 
 ## Attending a Meetup
 
-1. Find an upcoming meetup date on our [Eventbrite]({{ site.eventbrite }}) page.
+1. Find an upcoming meetup date on our [Meetup.com]({{ site.meetupcom }}) page.
 2. Choose a song, album, or artist to present to the group. If choosing an album or artist, select one of their songs or prepare a short sampler.
 3. Verify the song is available on Spotify. If it isn't, or if you've prepared a sample mix, please send a copy to the meetup host.
 4. Grab your device, headphones, and join us!
