@@ -2,8 +2,12 @@
 layout: base
 ---
 {{ content }}
-{% for post in site.categories.archive %}
-<h3>
-    <a href="{{ post.url }}">{{ post.date | date: "%B %-d, %Y" }}</a>
-</h3>
+{% assign sorted_archives = site.archives | sort: "date" | reverse %}
+{% for archive in sorted_archives %}
+{% assign archive_id = archive.date | date: "%Y-%m-%d" %}
+<h2 id="{{ archive_id }}">
+  {{ archive.date | date: "%B %-d, %Y" }}
+    <a href="#{{ archive_id }}" class="anchor-link" aria-label="Link to this section">#</a>
+</h2>
+{{ archive.content }}
 {% endfor %}

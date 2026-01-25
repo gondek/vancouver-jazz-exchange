@@ -77,5 +77,24 @@ ul, ol, nav {
     padding-bottom: .7rem;
 }
 
+li {
+    padding-bottom: .5em;
+}
+
 h1 {
+}
+
+.anchor-link {
+    font-size: 0;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAzAAAAMwB6wBQKQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAESSURBVDiNjZMxjsJADEVf0IKgSJo0uUgkzoHEnbagSxVqLpAzIAVpC8oo54jSbOUt+AEzGpItRsl4/O0//48xM5YWcABaYAB64BvYmhlLwASoANPqgF/934HdEvis5B9gr3gBXBQ/zRWoldQCWXBWiEn/CbwGRuAKpMAXUAKJy+mAIQrWNwdWwAZoxKbU2V77W3jnWp1zxTy4EZNMmhhwjAl2jXRutE+liQHV00ZnVaukGHil4qZmibAcnVWZaL6BnSajrunF5Kbkyecy0jn3AgeiMwBdIGYpJqlojzHwVKDXoyiCg8wJVs88OE5KukxF5PNk1VOwTwV2PAbDxKTjNTzVHNjbuOUxor00aYHDf0b9D1XxgQ6AvmpRAAAAAElFTkSuQmCC");
+    vertical-align: middle;
+    opacity: 0.3;
+    transition: opacity 0.2s;
+}
+
+.anchor-link:hover {
+    opacity: 1;
 }

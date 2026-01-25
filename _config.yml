@@ -7,16 +7,15 @@ port: 4010
 meetupcom: https://www.meetup.com/vancouver-jazz-exchange/events/
 permalink: /archives/:year-:month-:day
 
+collections:
+  archives:
+    output: false
+
 defaults:
   - scope:
       path: ""
     values:
       layout: "default"
-  - scope:
-      type: "posts"
-    values:
-      layout: "meetup"
-      category: "archive"
 
 exclude:
   - Gemfile
