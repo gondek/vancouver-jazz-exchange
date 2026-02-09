@@ -84,6 +84,10 @@ li {
 h1 {
 }
 
+.archive-entry {
+    margin-bottom: 1.3em;
+}
+
 .anchor-link {
     font-size: 0;
     height: 16px;

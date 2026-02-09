@@ -5,9 +5,11 @@ layout: base
 {% assign sorted_archives = site.archives | sort: "date" | reverse %}
 {% for archive in sorted_archives %}
 {% assign archive_id = archive.date | date: "%Y-%m-%d" %}
-<h2 id="{{ archive_id }}">
-  {{ archive.date | date: "%B %-d, %Y" }}
-    <a href="#{{ archive_id }}" class="anchor-link" aria-label="Link to this section">#</a>
-</h2>
-{{ archive.content }}
+<div class="archive-entry">
+    <h2 id="{{ archive_id }}">
+      {{ archive.date | date: "%B %-d, %Y" }}
+        <a href="#{{ archive_id }}" class="anchor-link" aria-label="Link to this section">#</a>
+    </h2>
+    {{ archive.content }}
+</div>
 {% endfor %}
